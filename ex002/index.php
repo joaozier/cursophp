@@ -10,6 +10,8 @@
         date_default_timezone_set("America/Sao_Paulo");
         echo "Hoje é dia ".date("d/M/Y T");
         echo "A hora é ".date("G:i:s");
+
+        echo "\n Testes \t testes"
     ?>
 </body>
 </html>
