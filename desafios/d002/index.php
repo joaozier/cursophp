@@ -10,11 +10,11 @@
     <main>
         <h1>Sorteador de Números</h1>
         <?php 
-            $numero = [100];
+            $numero = random_int(0,100);
 
             echo "<p>O valor gerado foi <strong>$numero</strong>.";
         ?>
-        <a href="#"><button>Gerar outro</button></a>
+        <a href="javascript:location.reload()"><button>Gerar outro</button></a>
     </main>
 </body>
 </html>
